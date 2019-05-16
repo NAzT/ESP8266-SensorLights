@@ -21,10 +21,13 @@ Makuna/Task
   - MQTT publish
   - MQTT reconnect
   - Webserver for webpages
+  
 SPIFFS
   Web pages and the config is stored in files in the SPIFFS.
+  
 ArduinoJSON v6
   A very nice tool to read, store and interprete JSON data
+  
 256dpi/arduino-mqtt
   I used this MQTT library, because I can define the MQTT-server and topic(s) in the loop or setup, if necessary. In the config are the MQTT data stored. Currently I do not support password for MQTT.
 # Web Pages
