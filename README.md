@@ -14,7 +14,7 @@ For the lamps is an override function programmed, that you can switch the lamps 
 # Platform
 Arduino IDE
 # Libraries
-+Makuna/Task
++[Makuna/Task](https://github.com/Makuna/Task)
 
   all funktions are running in tasks
   - Sensor check
@@ -27,7 +27,7 @@ Arduino IDE
 
   Web pages and the config is stored in files in the SPIFFS.
   
-+ArduinoJSON v6
++[ArduinoJSON v6](https://arduinojson.org/v6/doc/)
 
   A very nice tool to read, store and interprete JSON data
   
