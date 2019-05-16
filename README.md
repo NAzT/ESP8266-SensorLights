@@ -36,3 +36,7 @@ Arduino IDE
   I used this MQTT library, because I can define the MQTT-server and topic(s) in the loop or setup, if necessary. In the config are the MQTT data stored. Currently I do not support password for MQTT.
 # Web Pages
   The web pages are stored as html in the SPIFFS. The length of the web page(s) is not limited (except by SPIFFS). I read them line by line and publish them - so it is important to have CR/LF at the end of each line. You can have in each line one "%s". The routine is looking for the %s and substituting it with a string you specify.
+# WARNING
+  In my case the sensors are running on 240V as well as the lamps. 
+  <b>If you are not a professional use low voltage sensors and lamps.
+  HIGH VOLTAGE is DANGEROUS!</b>
