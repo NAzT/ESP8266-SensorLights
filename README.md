@@ -14,7 +14,8 @@ For the lamps is an override function programmed, that you can switch the lamps 
 # Platform
 Arduino IDE
 # Libraries
-Makuna/Task
++Makuna/Task
+
   all funktions are running in tasks
   - Sensor check
   - Lamp timers
@@ -22,13 +23,16 @@ Makuna/Task
   - MQTT reconnect
   - Webserver for webpages
   
-SPIFFS
++SPIFFS
+
   Web pages and the config is stored in files in the SPIFFS.
   
-ArduinoJSON v6
++ArduinoJSON v6
+
   A very nice tool to read, store and interprete JSON data
   
-256dpi/arduino-mqtt
++256dpi/arduino-mqtt
+
   I used this MQTT library, because I can define the MQTT-server and topic(s) in the loop or setup, if necessary. In the config are the MQTT data stored. Currently I do not support password for MQTT.
 # Web Pages
   The web pages are stored as html in the SPIFFS. The length of the web page(s) is not limited (except by SPIFFS). I read them line by line and publish them - so it is important to have CR/LF at the end of each line. You can have in each line one "%s". The routine is looking for the %s and substituting it with a string you specify.
