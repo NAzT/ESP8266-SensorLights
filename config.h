@@ -15,10 +15,10 @@ bool loadConfig() {
   const char* Host_name=doc["hostname"]; // "Aussenlicht1"
   host_name = String(Host_name);
   Serial.println(host_name);
-  const char* Sid=doc["SID"]; // "klaushome"
+  const char* Sid=doc["SID"];
   sid = String(Sid);
   Serial.println(sid);
-  const char* Pw=doc["PW"]; // "Johann1965"
+  const char* Pw=doc["PW"];
   pw = String(Pw);
   Serial.println(pw);
   const char* Mqtt_server=doc["MQTThost"]; // "192.168.2.90"
