@@ -8,8 +8,8 @@
 #define FIRMWARE    "Firmware V 0.0.1"
 #define HOST_NAME   "Aussenlicht1"
 #define MQTT_SERVER "192.168.2.90"
-#define SID         "klaushome"
-#define PW          "Johann1965"
+#define SID         "YOURSID"
+#define PW          "YOURPASSWORD"
 #define MQTT_TOPIC  "/status"
 #define MQTT_PORT   1883
 #define CONFIGFILE  "config.ini"
