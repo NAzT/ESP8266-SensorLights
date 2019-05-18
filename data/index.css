@@ -1,0 +1,31 @@
+.divT{
+	display: table;
+    text-align: center;
+  	background-color: Lightcyan;
+}
+.divTRow {
+	display: table-row;
+}
+.divTCaption {
+    font-size: 18px;
+    color: blue;
+	display: table-header-group;
+	font-weight: bold;
+  }
+.divTHeading {
+	display: table-header-group;
+    font-weight: bold;
+}
+.divTCell, .divTHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 5px 10px;
+}
+.divTCell:first-child {
+    font-weight: bold;
+  	text-align: left;
+	vertical-align: middle;
+    }
+.divTBody {
+	display: table-row-group;
+}

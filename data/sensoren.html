@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<link rel="stylesheet" href="index.css">
+<head>
+<title>Aussenlicht1</title>
+<meta name="author" content="Uwe Klaus">
+<meta name="editor" content="html-editor phase 5">
+</head>
+<body>
+<h1 style="text-align: left;"><span style="color: #3366ff; font-size: 24pt;">Aussenlicht - Sensoren Setup</span></h1>
+<p>ESP8266 -based</p>
+<h3><span style="font-size: 14pt;">Up-Time: %s</span></h3>
+<p>Hostname: %s</p>
+<p></p>
+<form action="/sensorenspeichern" enctype="text/plain" id="abc" method="post" name="Speichern" target="_self">
+<div class="divTCaption">Zuordnung Sensoren/Lampen</div>
+<div class="divT">
+<div class="divTHeading">
+<div class="divTRow">
+</div>
+<div class="divTRow">
+<div class="divTHead">&nbsp;</div>
+<div class="divTHead">Lampe 1</div>
+<div class="divTHead">Lampe 2</div>
+<div class="divTHead">Lampe 3</div>
+<div class="divTHead">Lampe 4</div>
+</div>
+</div>
+<div class="divTBody">
+<div class="divTRow">
+<div class="divTCell">Sensor 1</div>
+<div class="divTCell"><input name="s11" type="checkbox" value="1" %s></div>
+<div class="divTCell"><input name="s12" type="checkbox" value="1" %s></div>
+<div class="divTCell"><input name="s13" type="checkbox" value="1" %s></div>
+<div class="divTCell"><input name="s14" type="checkbox" value="1" %s></div>
+</div>
+<div class="divTRow">
+<div class="divTCell">Sensor 2</div>
+<div class="divTCell"><input name="s21" type="checkbox" value="1" %s></div>
+<div class="divTCell"><input name="s22" type="checkbox" value="1" %s></div>
+<div class="divTCell"><input name="s23" type="checkbox" value="1" %s></div>
+<div class="divTCell"><input name="s24" type="checkbox" value="1" %s></div>
+</div>
+<div class="divTRow">
+<div class="divTCell">Sensor 3</div>
+<div class="divTCell"><input name="s31" type="checkbox" value="1" %s></div>
+<div class="divTCell"><input name="s32" type="checkbox" value="1" %s></div>
+<div class="divTCell"><input name="s33" type="checkbox" value="1" %s></div>
+<div class="divTCell"><input name="s34" type="checkbox" value="1" %s></div>
+</div>
+<div class="divTRow">
+<div class="divTCell">Sensor 4</div>
+<div class="divTCell"><input name="s41" type="checkbox" value="1" %s></div>
+<div class="divTCell"><input name="s42" type="checkbox" value="1" %s></div>
+<div class="divTCell"><input name="s43" type="checkbox" value="1" %s></div>
+<div class="divTCell"><input name="s44" type="checkbox" value="1" %s></div>
+</div>
+</div>
+</div>
+<input name="a" type="submit" value="OK" /></form>
+<form action="/" enctype="text/plain" id="abc" method="post" name="Zurueck" target="_self"><input name="a" type="submit" value="Zurück" />&nbsp;</form>
+</body>
+</html>

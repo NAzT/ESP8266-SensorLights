@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+<script src="timer.js"></script>
+<title>Aussenlicht1</title>
+<meta name="author" content="Uwe Klaus">
+</head>
+<body>
+<h1><span style="color: #3366ff; font-size: 24pt;">Auﬂenlicht - Setup Timer L‰nge</span></h1>
+<p>ESP8266 -based</p>
+<h3><span style="font-size: 14pt;">Up-Time: %s</span></h3>
+<p>Hostname: %s</p>
+<p></p>
+<form action="/timerspeichern2" enctype="text/plain" id="abc" method="post" name="Speichern" target="_self">
+<p><span style="color: #3366ff; font-size: 14pt;">Einstellung Timer</span></p>
+<div class="divT">
+<div class="divTHeading">
+<div class="divTRow">
+<div class="divTHead">&nbsp;</div>
+<div class="divTHead">Lampe 1</div>
+<div class="divTHead">Lampe 2</div>
+<div class="divTHead">Lampe 3</div>
+<div class="divTHead">Lampe 4</div>
+</div>
+</div>
+<div class="divTBody">
+<div class="divTRow">
+<div class="divTCell">Sensor 1</div>
+<div class="divTCell"><p><output id="ol11" for="l11"></output></p><input onchange="document.getElementById('ol11').innerHTML = parseFloat(l11.value)" id="l11" style="width: 120px;" max="300" min="0" name="l11" step="5" type="range" value="%s"></div>
+<div class="divTCell"><p><output id="ol12" for="l12"></output></p><input onchange="document.getElementById('ol12').innerHTML = parseFloat(l12.value)" id="l12" style="width: 120px;" max="300" min="0" name="l12" step="5" type="range" value="%s"></div>
+<div class="divTCell"><p><output id="ol13" for="l13"></output></p><input onchange="document.getElementById('ol13').innerHTML = parseFloat(l13.value)" id="l13" style="width: 120px;" max="300" min="0" name="l13" step="5" type="range" value="%s"></div>
+<div class="divTCell"><p><output id="ol14" for="l14"></output></p><input onchange="document.getElementById('ol14').innerHTML = parseFloat(l14.value)" id="l14" style="width: 120px;" max="300" min="0" name="l14" step="5" type="range" value="%s"></div>
+</div>
+<div class="divTRow">
+<div class="divTCell">Sensor 2</div>
+<div class="divTCell"><p><output id="ol21" for="l21"></output></p><input onchange="document.getElementById('ol21').innerHTML = parseFloat(l21.value)" id="l21" style="width: 120px;" max="300" min="0" name="l21" step="5" type="range" value="%s"></div>
+<div class="divTCell"><p><output id="ol22" for="l22"></output></p><input onchange="document.getElementById('ol22').innerHTML = parseFloat(l22.value)" id="l22" style="width: 120px;" max="300" min="0" name="l22" step="5" type="range" value="%s"></div>
+<div class="divTCell"><p><output id="ol23" for="l23"></output></p><input onchange="document.getElementById('ol23').innerHTML = parseFloat(l23.value)" id="l23" style="width: 120px;" max="300" min="0" name="l23" step="5" type="range" value="%s"></div>
+<div class="divTCell"><p><output id="ol24" for="l24"></output></p><input onchange="document.getElementById('ol24').innerHTML = parseFloat(l24.value)" id="l24" style="width: 120px;" max="300" min="0" name="l24" step="5" type="range" value="%s"></div>
+</div>
+<div class="divTRow">
+<div class="divTCell">Sensor 3</div>
+<div class="divTCell"><p><output id="ol31" for="l31"></output></p><input onchange="document.getElementById('ol31').innerHTML = parseFloat(l31.value)" id="l31" style="width: 120px;" max="300" min="0" name="l31" step="5" type="range" value="%s"></div>
+<div class="divTCell"><p><output id="ol32" for="l32"></output></p><input onchange="document.getElementById('ol32').innerHTML = parseFloat(l32.value)" id="l32" style="width: 120px;" max="300" min="0" name="l32" step="5" type="range" value="%s"></div>
+<div class="divTCell"><p><output id="ol33" for="l33"></output></p><input onchange="document.getElementById('ol33').innerHTML = parseFloat(l33.value)" id="l33" style="width: 120px;" max="300" min="0" name="l33" step="5" type="range" value="%s"></div>
+<div class="divTCell"><p><output id="ol34" for="l34"></output></p><input onchange="document.getElementById('ol34').innerHTML = parseFloat(l34.value)" id="l34" style="width: 120px;" max="300" min="0" name="l34" step="5" type="range" value="%s"></div>
+</div>
+<div class="divTRow">
+<div class="divTCell">Sensor 4</div>
+<div class="divTCell"><p><output id="ol41" for="l41"></output></p><input onchange="document.getElementById('ol41').innerHTML = parseFloat(l41.value)" id="l41" style="width: 120px;" max="300" min="0" name="l41" step="5" type="range" value="%s"></div>
+<div class="divTCell"><p><output id="ol42" for="l42"></output></p><input onchange="document.getElementById('ol42').innerHTML = parseFloat(l42.value)" id="l42" style="width: 120px;" max="300" min="0" name="l42" step="5" type="range" value="%s"></div>
+<div class="divTCell"><p><output id="ol43" for="l43"></output></p><input onchange="document.getElementById('ol43').innerHTML = parseFloat(l43.value)" id="l43" style="width: 120px;" max="300" min="0" name="l43" step="5" type="range" value="%s"></div>
+<div class="divTCell"><p><output id="ol44" for="l44"></output></p><input onchange="document.getElementById('ol44').innerHTML = parseFloat(l44.value)" id="l44" style="width: 120px;" max="300" min="0" name="l44" step="5" type="range" value="%s"></div>
+</div>
+</div>
+</div>
+<p></p>
+<p><button name="a" type="submit">OK</button></p>
+</form>
+<form action="/" enctype="text/plain" id="abc" method="post" name="Zur¸ck" target="_self"><input name="a" type="submit" value="Zurueck" />&nbsp;</form>
+</body>
+</html>

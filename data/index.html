@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+<title>Aussenlicht1</title>
+<meta class="author" content="Uwe Klaus">
+<meta class="editor" content="html-editor phase 5">
+<meta http-equiv="refresh" content="5" >
+</head>
+<body>
+<h1 style="text-align: left;"><span style="color: #3366ff; font-size: 24pt;">Aussenlicht - Setup</span></h1>
+<p style="text-align: left;">ESP8266-based</p>
+<h3 style="text-align: left;"><span style="font-size: 14pt;">Up-Time: %s</span></h3>
+<table>
+<tbody>
+<tr>
+<td>Host</td>
+<td>%s</td>
+</tr>
+<tr>
+<td>IP</td>
+<td>%s</td>
+</tr>
+<tr>
+<td>MQTT Server</td>
+<td>%s</td>
+</tr>
+<tr>
+<td>MQTT Topic</td>
+<td>%s</td>
+</tr>
+<tr>
+<td>Config File</td>
+<td>%s</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<caption><span style="color: #3366ff; font-family: arial,helvetica,sans-serif; font-size: 14pt;">Zustand Sensoren/Lampen</span></caption>
+<div class="divT">
+<div class="divTHeading">
+<div class="divTRow">
+<div class="divTHead">&nbsp;</div>
+<div class="divTHead">Lampe 1</div>
+<div class="divTHead">Lampe 2</div>
+<div class="divTHead">Lampe 3</div>
+<div class="divTHead">Lampe 4</div>
+</div>
+</div>
+<div class="divTBody">
+<div class="divTRow">
+<div class="divTCell">Sensor 1</div>
+<div class="divTCell s1l1"> <input name="a" class="s1l1" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell s1l2"><input name="a" class="s1l2" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s1l3" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s1l4" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+</div>
+<div class="divTRow">
+<div class="divTCell">Sensor 2</div>
+<div class="divTCell"><input name="a" class="s2l1" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s2l2" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s2l3" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s2l4" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+</div>
+<div class="divTRow">
+<div class="divTCell">Sensor 3</div>
+<div class="divTCell"><input name="a" class="s3l1" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s3l2" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s3l3" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s3l4" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+</div>
+<div class="divTRow">
+<div class="divTCell">Sensor 4</div>
+<div class="divTCell"><input name="a" class="s4l1" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s4l2" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s4l3" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s4l4" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+</div>
+<div class="divTRow">
+<div class="divTCell">Extern</div>
+<div class="divTCell"><input name="a" class="s5l1" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s5l2" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s5l3" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+<div class="divTCell"><input name="a" class="s5l4" type="checkbox" value="true" %s disabled/><svg width="16" height="16" viewBox="0 0 12 12"><rect x="0" y="0" width="12" height="12" fill="#fc0" /></svg></div>
+</div>
+</div>
+</div>
+  <p>
+    
+  </p>
+  <table>
+    <tbody>
+    <tr>
+      <td><form action="/sensoren" enctype="text/plain" id="abc" method="post" name="sensoren" target="_self"><input name="a" type="submit" value="Sensoren" />&nbsp;</form></td>
+      <td><form action="/timer" enctype="text/plain" id="abc" method="post" name="timer" target="_self"><input name="a" type="submit" value="Timerzuordnung" />&nbsp;</form></td>
+      <td><form action="/timer2" enctype="text/plain" id="abc" method="post" name="timer" target="_self"><input name="a" type="submit" value="Timer" />&nbsp;</form></td>
+	  <td><form action="/saveconfig" enctype="text/plain" id="abc" method="post" name="save" target="_self"><input name="a" type="submit" value="Save" />&nbsp;</form></td>
+	  <td><form action="/loadconfig" enctype="text/plain" id="abc" method="post" name="load" target="_self"><input name="a" type="submit" value="Load" />&nbsp;</form></td>
+	  </tr>
+    </tbody>
+  </table>
+<style>
+input[type=checkbox] {
+  display:inline;
+  }
+input[type=checkbox]:checked {
+  display:none;
+  }
+input[type=checkbox] ~ svg {
+  display: none;    	
+} 
+input[type=checkbox]:checked ~ svg {
+  display: inline;    	
+}    
+</style>
+</body>
+</html>
